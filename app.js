@@ -16,7 +16,7 @@ app.get("/", function(req, res)
     res.sendFile(__dirname + "/client/index.html")
 })
 
-const port = 0xdead
+const port = process.env.PORT || 5000
 
 const server = app.listen(port, function()
 {
