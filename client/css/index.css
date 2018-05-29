@@ -1,0 +1,15 @@
+@import "general.css";
+@import "hover.css";
+@import "button.css";
+
+#welcome {
+    margin: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 64px;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+}

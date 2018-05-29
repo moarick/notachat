@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon-16x16.png">
+    <link rel="manifest" href="/resources/site.webmanifest">
+    <link rel="mask-icon" href="/resources/safari-pinned-tab.svg" color="#82e664">
+    <meta name="msapplication-TileColor" content="#82e664">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+    <link rel="stylesheet" type="text/css" href="/css/chat.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/js/menu.js"></script>
+    <script type="text/javascript" src="/js/chat.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <div id="left-aligned">
+                <a href="/">
+                    <img class="logo" src="/resources/chat.png" alt="chat.png">
+                </a>
+            </div>
+            <div id="right-aligned"></div>
+        </div>
+
+        <div id="chat">
+            <div id="chat-container"></div>
+            <div id="chat-interface">
+                <input id="chat-input" type="text">
+                <div class="button hover" id="chat-send">Send</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
